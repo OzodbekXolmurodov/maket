@@ -1,0 +1,79 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-bottom: 20px;
+
+  &__link {
+    text-decoration: none;
+    font-size: 14px;
+    color: #45454550;
+    &.active {
+      color: rgb(31, 30, 30);
+    }
+  }
+  &__text {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  &__div {
+    display: flex;
+    gap: 27px;
+  }
+  &__nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  &__cloction {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  &__form {
+    flex: 1;
+    display: flex;
+    position: relative;
+  }
+  &__input {
+    flex: 1;
+    padding: 14px;
+    border: 1px solid #454545;
+    border-radius: 100px;
+    padding-left: 24px;
+    font-size: 16px;
+    line-height: 21.86px;
+    color: #454545;
+    padding-right: 44px;
+  }
+  &__btn {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 14px 18px;
+    background-color: #454545;
+    color: #ffffff;
+    border: none;
+    border-radius: 100px;
+  }
+  &__icons {
+    text-align: center;
+    cursor: pointer;
+  }
+  &__text2 {
+    font-size: 12px;
+    line-height: 16.39px;
+    color: #454545;
+  }
+  &__img {
+    width: 30px;
+    height: 25px;
+  }
+  &__sorch {
+    position: absolute;
+    top: 16px;
+    left: 625px;
+    cursor: pointer;
+  }
+}

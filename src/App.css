@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.conteaner {
+  width: 1304px;
+  margin: 0 auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+input:focus {
+  outline: none;
+}
