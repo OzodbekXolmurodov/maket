@@ -1,0 +1,36 @@
+.catolig {
+  margin-bottom: 50px;
+  &__div {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 20px;
+    padding: 19px 33px 25px 32px;
+    margin-bottom: 30px;
+  }
+  &__main-div {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__p {
+    font-size: 20px;
+    line-height: 22px;
+    color: #454545;
+    margin-bottom: 149px;
+  }
+  &__text {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+  }
+  &__p2 {
+    font-size: 14px;
+    line-height: 15.4px;
+    color: #454545;
+  }
+}
