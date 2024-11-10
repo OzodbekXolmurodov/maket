@@ -37,10 +37,14 @@ const Catolig = () => {
               </div>
             </div>
             <div className="catolig__left">
-              <img className="catolig__main-img" src={rasim10} alt="" />
+              <img
+                className="catolig__main-img catolig__main-img-2"
+                src={rasim10}
+                alt=""
+              />
             </div>
           </div>
-          <div className="catolig__div">
+          <div className="catolig__div  catolig__div-2">
             <div className="catolig__rght">
               <p className="catolig__p">Люстры</p>
               <div className="catolig__text">
@@ -52,7 +56,7 @@ const Catolig = () => {
               <img className="catolig__main-img" src={rasim10} alt="" />
             </div>
           </div>
-          <div className="catolig__div">
+          <div className="catolig__div catolig__div-2">
             <div className="catolig__rght">
               <p className="catolig__p">Люстры</p>
               <div className="catolig__text">
@@ -64,7 +68,7 @@ const Catolig = () => {
               <img className="catolig__main-img" src={rasim10} alt="" />
             </div>
           </div>
-          <div className="catolig__div">
+          <div className="catolig__div catolig__div-2">
             <div className="catolig__rght">
               <p className="catolig__p">Люстры</p>
               <div className="catolig__text">
@@ -76,7 +80,7 @@ const Catolig = () => {
               <img className="catolig__main-img" src={rasim10} alt="" />
             </div>
           </div>
-          <div className="catolig__div">
+          <div className="catolig__div catolig__div-2">
             <div className="catolig__rght">
               <p className="catolig__p">Люстры</p>
               <div className="catolig__text">

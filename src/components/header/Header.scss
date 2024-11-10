@@ -28,7 +28,7 @@
   }
   &__cloction {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     gap: 30px;
   }
   &__form {
@@ -75,5 +75,57 @@
     top: 16px;
     left: 625px;
     cursor: pointer;
+  }
+  &__img-btn {
+    display: none;
+  }
+}
+@media (max-width: 1300px) {
+  .header {
+    &__icons2 {
+      display: none;
+    }
+    &__sorch {
+      left: 585px;
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    display: none;
+    &__form {
+      position: absolute;
+      top: 75px;
+      width: 90%;
+    }
+    &__nav {
+      width: 100%;
+      justify-content: space-between;
+      gap: 15px;
+    }
+    &__btn {
+      display: none;
+    }
+    &__text2 {
+      display: none;
+    }
+    &__img-3 {
+      width: 24px;
+      height: 24px;
+    }
+    &__img-btn {
+      display: block;
+    }
+    &__sorch {
+      display: none;
+    }
+    &__input {
+      padding-left: 45px;
+      padding-right: 95px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      border-radius: 300px;
+    }
   }
 }

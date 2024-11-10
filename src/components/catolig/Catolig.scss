@@ -34,3 +34,39 @@
     color: #454545;
   }
 }
+
+@media (max-width: 700px) {
+  .catolig {
+    display: block;
+    width: 385px;
+
+    &__div-2 {
+      display: none;
+    }
+    &__p {
+      margin-bottom: 118px;
+    }
+    &__main-img {
+      width: 81px;
+      height: 92px;
+      position: absolute;
+      top: 875px;
+      left: 61%;
+    }
+    &__main-img-2 {
+      left: 17%;
+    }
+    &__main-div {
+      width: 123px;
+      gap: 20px;
+      display: flex;
+      flex-wrap: nowrap;
+    }
+    &__div {
+      width: 160px;
+    }
+    &__p2 {
+      width: 50px;
+    }
+  }
+}

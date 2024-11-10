@@ -2,6 +2,25 @@
   margin-top: 89px;
   margin-bottom: 97px;
   &__img {
-    width: 1714px;
+    max-width: 1414px;
+  }
+  &__media {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .corusel {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    &__img {
+      display: none;
+    }
+    &__media {
+      display: block;
+    }
+  }
+  .mySwiper {
+    width: 340px;
   }
 }

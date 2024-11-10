@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import Header from "../../components/header/Header";
-import Futer from "../../components/futer/Futer";
+import Header from "@/components/header/Header";
+import Futer from "@/components/futer/Futer";
 
 const Leaut = () => {
   return (

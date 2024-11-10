@@ -18,7 +18,7 @@ input:focus {
 }
 
 .conteaner2 {
-  width: 1714px;
+  max-width: 1414px;
   margin: 0 auto;
 }
 
@@ -66,4 +66,35 @@ input:focus {
   margin-top: 60px;
   margin-left: 533px;
   margin-bottom: 50px;
+}
+@media (max-width: 1300px) {
+  .conteaner {
+    width: 1220px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+}
+@media (max-width: 700px) {
+  .conteaner {
+    width: 720px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .conteaner2 {
+    width: 364px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .main-btn {
+    position: absolute;
+    top: 1050px;
+    width: 325px;
+    padding-left: 105px;
+  }
 }

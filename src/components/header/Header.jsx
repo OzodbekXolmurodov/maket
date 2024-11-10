@@ -7,6 +7,7 @@ import rasim3 from "../../assets/Vector3.svg";
 import rasim4 from "../../assets/Vector4.svg";
 import rasim5 from "../../assets/Group 3.svg";
 import rasim6 from "../../assets/Vector5.svg";
+import rasim11231 from "../../assets/Vector6.svg";
 
 const Header = () => {
   return (
@@ -38,6 +39,7 @@ const Header = () => {
         </div>
       </div>
       <div className="conteaner header__nav">
+        <img className="header__img-btn" src={rasim11231} alt="" />
         <NavLink to={"/"}>
           <img src={logo} alt="logo" />
         </NavLink>
@@ -55,15 +57,19 @@ const Header = () => {
         </div>
         <div className="header__cloction">
           <div className="header__icons">
-            <img src={rasim3} alt="rasim" />
+            <img className="header__img-3" src={rasim3} alt="rasim" />
             <p className="header__text2">Избранное</p>
           </div>
-          <div className="header__icons">
-            <img src={rasim4} alt="rasim" />
-            <p className="header__text2">Избранное</p>
+          <div className="header__icons header__icons2">
+            <img className="header__img-3" src={rasim4} alt="rasim" />
+            <p className="header__text2 ">Избранное</p>
           </div>
           <div className="header__icons">
-            <img className="header__img" src={rasim5} alt="rasim" />
+            <img
+              className="header__img header__img-3"
+              src={rasim5}
+              alt="rasim"
+            />
             <p className="header__text2">Избранное</p>
           </div>
         </div>
