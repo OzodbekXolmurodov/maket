@@ -34,7 +34,13 @@
     color: #454545;
   }
 }
-
+@media (max-width: 1300px) {
+  .catolig {
+    &__main-div {
+      justify-content: space-evenly;
+    }
+  }
+}
 @media (max-width: 700px) {
   .catolig {
     display: block;
@@ -50,17 +56,18 @@
       width: 81px;
       height: 92px;
       position: absolute;
-      top: 875px;
-      left: 61%;
+      top: 50px;
+      left: 35px;
     }
     &__main-img-2 {
-      left: 17%;
+      left: 215px;
     }
     &__main-div {
       width: 123px;
       gap: 20px;
       display: flex;
       flex-wrap: nowrap;
+      position: relative;
     }
     &__div {
       width: 160px;
