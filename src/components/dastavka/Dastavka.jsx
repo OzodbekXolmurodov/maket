@@ -13,7 +13,7 @@ const Dastavka = () => {
             Главная
           </NavLink>
           <img className="companiya__img" src={rasim10} alt="" />
-          <p className="companiya__p-2">О компании</p>
+          <p className="companiya__p-2">Доставка и оплата</p>
         </div>
         <div className="dast__main">
           <div className="dast__rght">
