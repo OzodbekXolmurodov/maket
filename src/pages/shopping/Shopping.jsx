@@ -1,5 +1,5 @@
 import React from "react";
-import Dastavka from "../../components/dastavka/Dastavka";
+import Dastavka from "../../components/dastavka/DAstavka";
 
 const Shopping = () => {
   return (

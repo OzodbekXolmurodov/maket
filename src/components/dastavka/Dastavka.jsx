@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import rasim10 from "../../assets/Vector 5.svg";
 import rasim11 from "../../assets/Rectangle 22.svg";
 
-const Dastavka = () => {
+const DAstavka = () => {
   return (
     <>
       <div className="conteaner dast">
@@ -50,4 +50,4 @@ const Dastavka = () => {
   );
 };
 
-export default Dastavka;
+export default DAstavka;
