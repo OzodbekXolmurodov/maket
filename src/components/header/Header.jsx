@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Header.scss";
 import logo from "../../assets/Group 64.svg";
@@ -10,9 +10,17 @@ import rasim6 from "../../assets/Vector5.svg";
 import rasim11231 from "../../assets/Vector6.svg";
 
 const Header = () => {
+  const [show, setShow] = useState(false);
+
+  const tagle = () => {
+    setShow(!show);
+  };
   return (
     <>
-      <div className="header conteaner">
+      {show && (
+        <div onClick={() => setShow(false)} className="header__ovirlay"></div>
+      )}
+      <div className={`header conteaner ${show ? "show" : ""}`}>
         <div className="header__div">
           <NavLink className="header__link" to={"/about"}>
             О компании
@@ -39,7 +47,10 @@ const Header = () => {
         </div>
       </div>
       <div className="conteaner header__nav">
-        <img className="header__img-btn" src={rasim11231} alt="" />
+        <button className="header__btn-img" onClick={() => setShow(true)}>
+          <img className="header__img-btn" src={rasim11231} alt="" />
+        </button>
+
         <NavLink to={"/"}>
           <img src={logo} alt="logo" />
         </NavLink>
