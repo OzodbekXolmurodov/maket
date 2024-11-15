@@ -83,6 +83,9 @@
     border: none;
     background-color: transparent;
   }
+  &__media-div {
+    display: none;
+  }
 }
 
 @media (max-width: 1300px) {
@@ -162,6 +165,20 @@
 
     &__div {
       position: fixed;
+    }
+    &__media-div {
+      display: flex;
+      align-items: center;
+      gap: 200px;
+    }
+    &__medi-btn {
+      border: none;
+      background-color: transparent;
+      font-size: 20px;
+      color: #454545;
+      &:hover {
+        color: red;
+      }
     }
   }
 }

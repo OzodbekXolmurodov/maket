@@ -1,8 +1,12 @@
 import React from "react";
-// import Dastavka from "../../components/dastavka/DAstavka";
+import DAstavka from "../../components/dastavka/DAstavka";
 
 const Shopping = () => {
-  return <div>{/* <Dastavka /> */}</div>;
+  return (
+    <div>
+      <DAstavka />
+    </div>
+  );
 };
 
 export default Shopping;

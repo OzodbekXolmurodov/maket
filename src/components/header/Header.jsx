@@ -22,6 +22,14 @@ const Header = () => {
       )}
       <div className={`header conteaner ${show ? "show" : ""}`}>
         <div className="header__div">
+          <div className="header__media-div">
+            <NavLink className="header__link" to={"/"}>
+              Home
+            </NavLink>
+            <button onClick={() => setShow(false)} className="header__medi-btn">
+              x
+            </button>
+          </div>
           <NavLink className="header__link" to={"/about"}>
             О компании
           </NavLink>
