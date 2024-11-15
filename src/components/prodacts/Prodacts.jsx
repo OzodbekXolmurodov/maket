@@ -34,7 +34,6 @@ const Prodacts = () => {
   ));
   return (
     <>
-      =
       {/* <div className="main-div">
           <h2 className="main-h2">Каталог</h2>
           <button className="main-btn">
@@ -42,7 +41,9 @@ const Prodacts = () => {
             <img src={btnRasim} alt="" />
           </button>
         </div> */}
-      <div className="conteaner prodacts">{prodactsItm}</div>
+      <div className="conteaner">
+        <div className="prodacts">{prodactsItm}</div>
+      </div>
     </>
   );
 };
