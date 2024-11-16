@@ -1,10 +1,11 @@
 import React from "react";
-import "./Dastavka.scss";
+import "./Modul.scss";
+
 import { NavLink } from "react-router-dom";
 import rasim10 from "../../assets/Vector 5.svg";
 import rasim11 from "../../assets/Rectangle 22.svg";
 
-const DAstavka = () => {
+const Modul = () => {
   return (
     <>
       <div className="conteaner dast">
@@ -50,4 +51,4 @@ const DAstavka = () => {
   );
 };
 
-export default DAstavka;
+export default Modul;

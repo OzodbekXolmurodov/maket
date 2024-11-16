@@ -1,10 +1,10 @@
 import React from "react";
-import DAstavka from "../../components/dastavka/DAstavka";
+import Modul from "../../components/madul/Modul";
 
 const Shopping = () => {
   return (
     <div>
-      <DAstavka />
+      <Modul />
     </div>
   );
 };
