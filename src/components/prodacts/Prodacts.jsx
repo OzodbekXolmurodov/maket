@@ -3,10 +3,12 @@ import React, { useEffect, useState } from "react";
 import "./Prodacts.scss";
 import rasim from "../../assets/Group 37.svg";
 import btnRasim from "../../assets/Vector 1.svg";
+import Modul from "../modul/Modul";
 
 const bas__url = "https://672fc50866e42ceaf15ea982.mockapi.io";
 const Prodacts = () => {
   const [data, setData] = useState(null);
+  const [item, setItem] = useState(null);
 
   useEffect(() => {
     axios
@@ -20,7 +22,12 @@ const Prodacts = () => {
   console.log(data);
   const prodactsItm = data?.map((pro) => (
     <div className="prodacts__main" key={pro.id}>
-      <img className="prodacts__img" src={pro.url} alt="" />
+      <img
+        onClick={() => setItem(pro)}
+        className="prodacts__img"
+        src={pro.url}
+        alt=""
+      />
       <h3 className="prodacts__h3">{pro.title}</h3>
       <div className="prodacts__div">
         <div>
@@ -41,9 +48,17 @@ const Prodacts = () => {
             <img src={btnRasim} alt="" />
           </button>
         </div> */}
+
       <div className="conteaner">
         <div className="prodacts">{prodactsItm}</div>
       </div>
+      {item && (
+        <Modul close={setItem}>
+          <div className="div_m">
+            <img className="header__img-modul" src={item.url} alt="" />
+          </div>
+        </Modul>
+      )}
     </>
   );
 };

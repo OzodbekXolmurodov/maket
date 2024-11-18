@@ -9,6 +9,7 @@ import Cantacts from "@/pages/cantacts/Cantacts";
 import Masla from "@/pages/masla/Masla";
 import Bloks from "@/pages/bloks/Bloks";
 import Leaut from "@/pages/leaut/Leaut";
+import Serves from "./pages/serves/Serves";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/garant" element={<Garant />} />
           <Route path="/cantacts" element={<Cantacts />} />
           <Route path="/bloks" element={<Bloks />} />
+          <Route path="/Cerves" element={<Serves />} />
         </Route>
         <Route path="*" element={<Masla />} />
       </Routes>

@@ -23,30 +23,65 @@ const Header = () => {
       <div className={`header conteaner ${show ? "show" : ""}`}>
         <div className="header__div">
           <div className="header__media-div">
-            <NavLink className="header__link" to={"/"}>
+            <NavLink
+              onClick={() => setShow(false)}
+              className="header__link"
+              to={"/"}
+            >
               Home
             </NavLink>
             <button onClick={() => setShow(false)} className="header__medi-btn">
               x
             </button>
           </div>
-          <NavLink className="header__link" to={"/about"}>
+          <NavLink
+            onClick={() => setShow(false)}
+            className="header__link"
+            to={"/about"}
+          >
             О компании
           </NavLink>
-          <NavLink className="header__link" to={"/shopping"}>
+          <NavLink
+            onClick={() => setShow(false)}
+            className="header__link"
+            to={"/shopping"}
+          >
             Доставка и оплата
           </NavLink>
-          <NavLink className="header__link" to={"/return"}>
+          <NavLink
+            onClick={() => setShow(false)}
+            className="header__link"
+            to={"/return"}
+          >
             Возврат
           </NavLink>
-          <NavLink className="header__link" to={"/garant"}>
+          <NavLink
+            onClick={() => setShow(false)}
+            className="header__link"
+            to={"/garant"}
+          >
             Гарантии
           </NavLink>
-          <NavLink className="header__link" to={"/cantacts"}>
+          <NavLink
+            onClick={() => setShow(false)}
+            className="header__link"
+            to={"/cantacts"}
+          >
             Контакты
           </NavLink>
-          <NavLink className="header__link" to={"/bloks"}>
+          <NavLink
+            onClick={() => setShow(false)}
+            className="header__link"
+            to={"/bloks"}
+          >
             Блог
+          </NavLink>
+          <NavLink
+            onClick={() => setShow(false)}
+            className="header__link"
+            to={"/Cerves"}
+          >
+            Serves
           </NavLink>
         </div>
         <div className="header__text">
